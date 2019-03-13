@@ -1,0 +1,245 @@
+﻿  UI.cpp
+c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_surface.h(70): warning C4099: 'SDL_Surface': type name first seen using 'class' now seen using 'struct'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_surface.h(69): note: see declaration of 'SDL_Surface'
+c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_video.h(90): warning C4099: 'SDL_Window': type name first seen using 'class' now seen using 'struct'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\engine.h(4): note: see declaration of 'SDL_Window'
+c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_render.h(121): warning C4099: 'SDL_Renderer': type name first seen using 'class' now seen using 'struct'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\renderer.h(6): note: see declaration of 'SDL_Renderer'
+c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_render.h(122): warning C4099: 'SDL_Renderer': type name first seen using 'class' now seen using 'struct'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_render.h(121): note: see declaration of 'SDL_Renderer'
+c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_render.h(127): warning C4099: 'SDL_Texture': type name first seen using 'class' now seen using 'struct'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\text.h(7): note: see declaration of 'SDL_Texture'
+c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_render.h(128): warning C4099: 'SDL_Texture': type name first seen using 'class' now seen using 'struct'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_render.h(127): note: see declaration of 'SDL_Texture'
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\player.h(64): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\helper.h(5): warning C4099: 'Point': type name first seen using 'struct' now seen using 'class'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\point.h(7): note: see declaration of 'Point'
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\helper.h(42): warning C4091: 'static ': ignored on left of 'Helper' when no variable is declared
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\ui.cpp(107): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  TriggerEntity.cpp
+  TownWorld.cpp
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\townworld.cpp(21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\townworld.cpp(22): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\townworld.cpp(508): warning C4244: 'argument': conversion from 'double' to '__int64', possible loss of data
+  TownScene.cpp
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\player.h(64): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_surface.h(70): warning C4099: 'SDL_Surface': type name first seen using 'class' now seen using 'struct'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_surface.h(69): note: see declaration of 'SDL_Surface'
+c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_video.h(90): warning C4099: 'SDL_Window': type name first seen using 'class' now seen using 'struct'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\engine.h(4): note: see declaration of 'SDL_Window'
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\helper.h(42): warning C4091: 'static ': ignored on left of 'Helper' when no variable is declared
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\point.h(7): warning C4099: 'Point': type name first seen using 'class' now seen using 'struct'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\point.h(6): note: see declaration of 'Point'
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\renderer.h(6): warning C4099: 'SDL_Renderer': type name first seen using 'struct' now seen using 'class'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_render.h(122): note: see declaration of 'SDL_Renderer'
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\scenechanger.h(6): warning C4099: 'Point': type name first seen using 'struct' now seen using 'class'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\point.h(7): note: see declaration of 'Point'
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\text.h(6): warning C4099: 'SDL_Surface': type name first seen using 'struct' now seen using 'class'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_surface.h(70): note: see declaration of 'SDL_Surface'
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\text.h(7): warning C4099: 'SDL_Texture': type name first seen using 'struct' now seen using 'class'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_render.h(128): note: see declaration of 'SDL_Texture'
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\texture.h(3): warning C4099: 'SDL_Texture': type name first seen using 'struct' now seen using 'class'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\text.h(7): note: see declaration of 'SDL_Texture'
+  TexturedEntity.cpp
+  Text.cpp
+c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_surface.h(70): warning C4099: 'SDL_Surface': type name first seen using 'class' now seen using 'struct'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_surface.h(69): note: see declaration of 'SDL_Surface'
+c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_render.h(127): warning C4099: 'SDL_Texture': type name first seen using 'class' now seen using 'struct'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\text.h(7): note: see declaration of 'SDL_Texture'
+c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_render.h(128): warning C4099: 'SDL_Texture': type name first seen using 'class' now seen using 'struct'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_render.h(127): note: see declaration of 'SDL_Texture'
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\renderer.h(5): warning C4099: 'SDL_Window': type name first seen using 'struct' now seen using 'class'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_video.h(90): note: see declaration of 'SDL_Window'
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\renderer.h(6): warning C4099: 'SDL_Renderer': type name first seen using 'struct' now seen using 'class'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_render.h(122): note: see declaration of 'SDL_Renderer'
+  SceneChanger.cpp
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\helper.h(42): warning C4091: 'static ': ignored on left of 'Helper' when no variable is declared
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\player.h(64): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\point.h(7): warning C4099: 'Point': type name first seen using 'class' now seen using 'struct'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\point.h(6): note: see declaration of 'Point'
+  Renderer.cpp
+c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_video.h(90): warning C4099: 'SDL_Window': type name first seen using 'class' now seen using 'struct'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\renderer.h(5): note: see declaration of 'SDL_Window'
+c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_render.h(121): warning C4099: 'SDL_Renderer': type name first seen using 'class' now seen using 'struct'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\renderer.h(6): note: see declaration of 'SDL_Renderer'
+c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_render.h(122): warning C4099: 'SDL_Renderer': type name first seen using 'class' now seen using 'struct'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_render.h(121): note: see declaration of 'SDL_Renderer'
+c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_render.h(127): warning C4099: 'SDL_Texture': type name first seen using 'class' now seen using 'struct'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\texture.h(3): note: see declaration of 'SDL_Texture'
+c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_render.h(128): warning C4099: 'SDL_Texture': type name first seen using 'class' now seen using 'struct'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_render.h(127): note: see declaration of 'SDL_Texture'
+  Rect.cpp
+  Point.cpp
+  Player.cpp
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\player.h(64): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_surface.h(70): warning C4099: 'SDL_Surface': type name first seen using 'class' now seen using 'struct'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_surface.h(69): note: see declaration of 'SDL_Surface'
+c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_video.h(90): warning C4099: 'SDL_Window': type name first seen using 'class' now seen using 'struct'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\engine.h(4): note: see declaration of 'SDL_Window'
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\helper.h(5): warning C4099: 'Point': type name first seen using 'struct' now seen using 'class'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\point.h(7): note: see declaration of 'Point'
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\helper.h(42): warning C4091: 'static ': ignored on left of 'Helper' when no variable is declared
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\texture.h(3): warning C4099: 'SDL_Texture': type name first seen using 'struct' now seen using 'class'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_render.h(128): note: see declaration of 'SDL_Texture'
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\animation.h(3): warning C4099: 'Point': type name first seen using 'struct' now seen using 'class'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\helper.h(5): note: see declaration of 'Point'
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\renderer.h(6): warning C4099: 'SDL_Renderer': type name first seen using 'struct' now seen using 'class'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_render.h(122): note: see declaration of 'SDL_Renderer'
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\player.cpp(250): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\player.cpp(251): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+  Pickup.cpp
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\player.h(64): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Physics.cpp
+  MenuScene.cpp
+c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_surface.h(70): warning C4099: 'SDL_Surface': type name first seen using 'class' now seen using 'struct'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_surface.h(69): note: see declaration of 'SDL_Surface'
+c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_render.h(127): warning C4099: 'SDL_Texture': type name first seen using 'class' now seen using 'struct'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\text.h(7): note: see declaration of 'SDL_Texture'
+c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_render.h(128): warning C4099: 'SDL_Texture': type name first seen using 'class' now seen using 'struct'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_render.h(127): note: see declaration of 'SDL_Texture'
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\helper.h(5): warning C4099: 'Point': type name first seen using 'struct' now seen using 'class'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\point.h(7): note: see declaration of 'Point'
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\helper.h(42): warning C4091: 'static ': ignored on left of 'Helper' when no variable is declared
+  InteractiveEntity.cpp
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\helper.h(42): warning C4091: 'static ': ignored on left of 'Helper' when no variable is declared
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\point.h(7): warning C4099: 'Point': type name first seen using 'class' now seen using 'struct'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\point.h(6): note: see declaration of 'Point'
+  IngameMenu.cpp
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\helper.h(42): warning C4091: 'static ': ignored on left of 'Helper' when no variable is declared
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\point.h(7): warning C4099: 'Point': type name first seen using 'class' now seen using 'struct'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\point.h(6): note: see declaration of 'Point'
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\text.h(6): warning C4099: 'SDL_Surface': type name first seen using 'struct' now seen using 'class'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_surface.h(70): note: see declaration of 'SDL_Surface'
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\text.h(7): warning C4099: 'SDL_Texture': type name first seen using 'struct' now seen using 'class'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_render.h(128): note: see declaration of 'SDL_Texture'
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\engine.h(4): warning C4099: 'SDL_Window': type name first seen using 'struct' now seen using 'class'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_video.h(90): note: see declaration of 'SDL_Window'
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\engine.h(5): warning C4099: 'SDL_Surface': type name first seen using 'struct' now seen using 'class'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\text.h(6): note: see declaration of 'SDL_Surface'
+  ForestWorld.cpp
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\forestworld.cpp(22): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\forestworld.cpp(23): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\forestworld.cpp(491): warning C4244: 'argument': conversion from 'double' to '__int64', possible loss of data
+  ForestScene.cpp
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\player.h(64): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_surface.h(70): warning C4099: 'SDL_Surface': type name first seen using 'class' now seen using 'struct'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_surface.h(69): note: see declaration of 'SDL_Surface'
+c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_video.h(90): warning C4099: 'SDL_Window': type name first seen using 'class' now seen using 'struct'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\engine.h(4): note: see declaration of 'SDL_Window'
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\helper.h(42): warning C4091: 'static ': ignored on left of 'Helper' when no variable is declared
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\point.h(7): warning C4099: 'Point': type name first seen using 'class' now seen using 'struct'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\point.h(6): note: see declaration of 'Point'
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\renderer.h(6): warning C4099: 'SDL_Renderer': type name first seen using 'struct' now seen using 'class'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_render.h(122): note: see declaration of 'SDL_Renderer'
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\scenechanger.h(6): warning C4099: 'Point': type name first seen using 'struct' now seen using 'class'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\point.h(7): note: see declaration of 'Point'
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\text.h(6): warning C4099: 'SDL_Surface': type name first seen using 'struct' now seen using 'class'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_surface.h(70): note: see declaration of 'SDL_Surface'
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\text.h(7): warning C4099: 'SDL_Texture': type name first seen using 'struct' now seen using 'class'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_render.h(128): note: see declaration of 'SDL_Texture'
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\texture.h(3): warning C4099: 'SDL_Texture': type name first seen using 'struct' now seen using 'class'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\text.h(7): note: see declaration of 'SDL_Texture'
+  FollowEntity.cpp
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\point.h(7): warning C4099: 'Point': type name first seen using 'class' now seen using 'struct'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\point.h(6): note: see declaration of 'Point'
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\followentity.cpp(30): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\followentity.cpp(33): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\followentity.cpp(36): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\followentity.cpp(39): warning C4305: 'argument': truncation from 'double' to 'float'
+  FarmWorld.cpp
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\farmworld.cpp(21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\farmworld.cpp(22): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\farmworld.cpp(609): warning C4244: 'argument': conversion from 'double' to '__int64', possible loss of data
+  Generating Code...
+  Compiling...
+  FarmScene.cpp
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\player.h(64): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_surface.h(70): warning C4099: 'SDL_Surface': type name first seen using 'class' now seen using 'struct'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_surface.h(69): note: see declaration of 'SDL_Surface'
+c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_video.h(90): warning C4099: 'SDL_Window': type name first seen using 'class' now seen using 'struct'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\engine.h(4): note: see declaration of 'SDL_Window'
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\helper.h(42): warning C4091: 'static ': ignored on left of 'Helper' when no variable is declared
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\point.h(7): warning C4099: 'Point': type name first seen using 'class' now seen using 'struct'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\point.h(6): note: see declaration of 'Point'
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\renderer.h(6): warning C4099: 'SDL_Renderer': type name first seen using 'struct' now seen using 'class'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_render.h(122): note: see declaration of 'SDL_Renderer'
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\scenechanger.h(6): warning C4099: 'Point': type name first seen using 'struct' now seen using 'class'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\point.h(7): note: see declaration of 'Point'
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\text.h(6): warning C4099: 'SDL_Surface': type name first seen using 'struct' now seen using 'class'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_surface.h(70): note: see declaration of 'SDL_Surface'
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\text.h(7): warning C4099: 'SDL_Texture': type name first seen using 'struct' now seen using 'class'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_render.h(128): note: see declaration of 'SDL_Texture'
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\texture.h(3): warning C4099: 'SDL_Texture': type name first seen using 'struct' now seen using 'class'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\text.h(7): note: see declaration of 'SDL_Texture'
+  Engine.cpp
+c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_surface.h(70): warning C4099: 'SDL_Surface': type name first seen using 'class' now seen using 'struct'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_surface.h(69): note: see declaration of 'SDL_Surface'
+c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_video.h(90): warning C4099: 'SDL_Window': type name first seen using 'class' now seen using 'struct'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\engine.h(4): note: see declaration of 'SDL_Window'
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\helper.h(42): warning C4091: 'static ': ignored on left of 'Helper' when no variable is declared
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\renderer.h(6): warning C4099: 'SDL_Renderer': type name first seen using 'struct' now seen using 'class'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_render.h(122): note: see declaration of 'SDL_Renderer'
+  Enemy.cpp
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\player.h(64): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\helper.h(42): warning C4091: 'static ': ignored on left of 'Helper' when no variable is declared
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\point.h(7): warning C4099: 'Point': type name first seen using 'class' now seen using 'struct'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\point.h(6): note: see declaration of 'Point'
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\enemy.cpp(39): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\enemy.cpp(42): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\enemy.cpp(45): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\enemy.cpp(48): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\enemy.cpp(181): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\enemy.cpp(182): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+  Collider.cpp
+  Chest.cpp
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\helper.h(5): warning C4099: 'Point': type name first seen using 'struct' now seen using 'class'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\point.h(7): note: see declaration of 'Point'
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\helper.h(42): warning C4091: 'static ': ignored on left of 'Helper' when no variable is declared
+  Bullet.cpp
+  Animation.cpp
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\point.h(7): warning C4099: 'Point': type name first seen using 'class' now seen using 'struct'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\point.h(6): note: see declaration of 'Point'
+  Actor.cpp
+  Generating Code...
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\collider.cpp(26): warning C4172: returning address of local variable or temporary: rect
+  Compiling...
+  Stamina_Potion.cpp
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\player.h(64): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\stamina_potion.cpp(25): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  Soulstone.cpp
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\player.h(64): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Scene.cpp
+  MenuPlayer.cpp
+c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_surface.h(70): warning C4099: 'SDL_Surface': type name first seen using 'class' now seen using 'struct'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_surface.h(69): note: see declaration of 'SDL_Surface'
+c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_video.h(90): warning C4099: 'SDL_Window': type name first seen using 'class' now seen using 'struct'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\engine.h(4): note: see declaration of 'SDL_Window'
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\text.h(6): warning C4099: 'SDL_Surface': type name first seen using 'struct' now seen using 'class'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_surface.h(70): note: see declaration of 'SDL_Surface'
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\text.h(7): warning C4099: 'SDL_Texture': type name first seen using 'struct' now seen using 'class'
+  c:\users\jungjohan\desktop\a_clone_to_the_past\library\sdl2\include\sdl_render.h(128): note: see declaration of 'SDL_Texture'
+  Health_Potion.cpp
+c:\users\jungjohan\desktop\a_clone_to_the_past\sdl2_engine\player.h(64): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
+  SDL2_Engine.vcxproj -> C:\Users\Jungjohan\Desktop\A_Clone_to_the_Past\Build\bin\x64\Debug\SDL2_Engine.exe
+  C:\Users\Jungjohan\Desktop\A_Clone_to_the_Past\Library\SDL2\lib\x64\SDL2.dll
+  1 Datei(en) kopiert
+  C:\Users\Jungjohan\Desktop\A_Clone_to_the_Past\Library\SDL2_ttf\lib\x64\libfreetype-6.dll
+  C:\Users\Jungjohan\Desktop\A_Clone_to_the_Past\Library\SDL2_ttf\lib\x64\SDL2_ttf.dll
+  C:\Users\Jungjohan\Desktop\A_Clone_to_the_Past\Library\SDL2_ttf\lib\x64\zlib1.dll
+  3 Datei(en) kopiert
+  C:\Users\Jungjohan\Desktop\A_Clone_to_the_Past\Library\SDL2_mixer\lib\x64\libFLAC-8.dll
+  C:\Users\Jungjohan\Desktop\A_Clone_to_the_Past\Library\SDL2_mixer\lib\x64\libmodplug-1.dll
+  C:\Users\Jungjohan\Desktop\A_Clone_to_the_Past\Library\SDL2_mixer\lib\x64\libmpg123-0.dll
+  C:\Users\Jungjohan\Desktop\A_Clone_to_the_Past\Library\SDL2_mixer\lib\x64\libogg-0.dll
+  C:\Users\Jungjohan\Desktop\A_Clone_to_the_Past\Library\SDL2_mixer\lib\x64\libvorbis-0.dll
+  C:\Users\Jungjohan\Desktop\A_Clone_to_the_Past\Library\SDL2_mixer\lib\x64\libvorbisfile-3.dll
+  C:\Users\Jungjohan\Desktop\A_Clone_to_the_Past\Library\SDL2_mixer\lib\x64\SDL2_mixer.dll
+  7 Datei(en) kopiert
+  C:\Users\Jungjohan\Desktop\A_Clone_to_the_Past\Library\SDL2_image\lib\x64\libjpeg-9.dll
+  C:\Users\Jungjohan\Desktop\A_Clone_to_the_Past\Library\SDL2_image\lib\x64\libpng16-16.dll
+  C:\Users\Jungjohan\Desktop\A_Clone_to_the_Past\Library\SDL2_image\lib\x64\libtiff-5.dll
+  C:\Users\Jungjohan\Desktop\A_Clone_to_the_Past\Library\SDL2_image\lib\x64\libwebp-7.dll
+  C:\Users\Jungjohan\Desktop\A_Clone_to_the_Past\Library\SDL2_image\lib\x64\SDL2_image.dll
+  C:\Users\Jungjohan\Desktop\A_Clone_to_the_Past\Library\SDL2_image\lib\x64\zlib1.dll
+  6 Datei(en) kopiert

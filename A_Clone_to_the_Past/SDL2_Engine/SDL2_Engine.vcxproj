@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Animation.cpp" />
+    <ClCompile Include="Collider.cpp" />
+    <ClCompile Include="FarmScene.cpp" />
+    <ClCompile Include="FarmWorld.cpp" />
+    <ClCompile Include="ForestScene.cpp" />
+    <ClCompile Include="ForestWorld.cpp" />
+    <ClCompile Include="Health_Potion.cpp" />
+    <ClCompile Include="IngameMenu.cpp" />
+    <ClCompile Include="Pickup.cpp" />
+    <ClCompile Include="Point.cpp" />
+    <ClCompile Include="Chest.cpp" />
+    <ClCompile Include="InteractiveEntity.cpp" />
+    <ClCompile Include="SceneChanger.cpp" />
+    <ClCompile Include="Soulstone.cpp" />
+    <ClCompile Include="Stamina_Potion.cpp" />
+    <ClCompile Include="TownScene.cpp" />
+    <ClCompile Include="TownWorld.cpp" />
+    <ClCompile Include="TriggerEntity.cpp" />
+    <ClCompile Include="Actor.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="Color.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="Engine.cpp" />
+    <ClCompile Include="FollowEntity.cpp" />
+    <ClCompile Include="Font.cpp" />
+    <ClCompile Include="Helper.cpp" />
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MenuPlayer.cpp" />
+    <ClCompile Include="MenuScene.cpp" />
+    <ClCompile Include="Music.cpp" />
+    <ClCompile Include="Physics.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Rect.cpp" />
+    <ClCompile Include="Renderer.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="Sound.cpp" />
+    <ClCompile Include="Text.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="TexturedEntity.cpp" />
+    <ClCompile Include="Time.cpp" />
+    <ClCompile Include="UI.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Animation.h" />
+    <ClInclude Include="Collider.h" />
+    <ClInclude Include="FarmScene.h" />
+    <ClInclude Include="FarmWorld.h" />
+    <ClInclude Include="ForestScene.h" />
+    <ClInclude Include="ForestWorld.h" />
+    <ClInclude Include="Health_Potion.h" />
+    <ClInclude Include="IngameMenu.h" />
+    <ClInclude Include="Pickup.h" />
+    <ClInclude Include="Point.h" />
+    <ClInclude Include="Chest.h" />
+    <ClInclude Include="InteractiveEntity.h" />
+    <ClInclude Include="SceneChanger.h" />
+    <ClInclude Include="Soulstone.h" />
+    <ClInclude Include="Stamina_Potion.h" />
+    <ClInclude Include="TownScene.h" />
+    <ClInclude Include="TownWorld.h" />
+    <ClInclude Include="TriggerEntity.h" />
+    <ClInclude Include="Actor.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="Color.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="Engine.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="FollowEntity.h" />
+    <ClInclude Include="Font.h" />
+    <ClInclude Include="Helper.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="Macros.h" />
+    <ClInclude Include="MenuPlayer.h" />
+    <ClInclude Include="MenuScene.h" />
+    <ClInclude Include="Music.h" />
+    <ClInclude Include="Physics.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Rect.h" />
+    <ClInclude Include="Renderer.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="Sound.h" />
+    <ClInclude Include="Text.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="TexturedEntity.h" />
+    <ClInclude Include="Time.h" />
+    <ClInclude Include="UI.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{394FADBE-2800-45C7-BC82-B746D8B7F82E}</ProjectGuid>
+    <RootNamespace>SDL2_Engine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)Build\bin\$(PlatformShortName)\$(Configuration)\</OutDir>
+    <ExecutablePath>$(SolutionDir);$(ExecutablePath)</ExecutablePath>
+    <IncludePath>$(SolutionDir)Library\SDL2_mixer\include;$(SolutionDir)Library\SDL2_ttf\include;$(SolutionDir)Library\SDL2_image\include;$(SolutionDir)Library\SDL2\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)Library\SDL2_mixer\lib\$(PlatformShortName);$(SolutionDir)Library\SDL2_ttf\lib\$(PlatformShortName);$(SolutionDir)Library\SDL2_image\lib\$(PlatformShortName);$(SolutionDir)Library\SDL2\lib\$(PlatformShortName);$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)Build\bin\$(PlatformShortName)\$(Configuration)\</OutDir>
+    <ExecutablePath>$(SolutionDir);$(ExecutablePath)</ExecutablePath>
+    <IncludePath>$(SolutionDir)Library\SDL2_mixer\include;$(SolutionDir)Library\SDL2_ttf\include;$(SolutionDir)Library\SDL2_image\include;$(SolutionDir)Library\SDL2\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)Library\SDL2_mixer\lib\$(PlatformShortName);$(SolutionDir)Library\SDL2_ttf\lib\$(PlatformShortName);$(SolutionDir)Library\SDL2_image\lib\$(PlatformShortName);$(SolutionDir)Library\SDL2\lib\$(PlatformShortName);$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)Build\bin\$(PlatformShortName)\$(Configuration)\</OutDir>
+    <ExecutablePath>$(SolutionDir);$(ExecutablePath)</ExecutablePath>
+    <IncludePath>$(SolutionDir)Library\SDL2_mixer\include;$(SolutionDir)Library\SDL2_ttf\include;$(SolutionDir)Library\SDL2_image\include;$(SolutionDir)Library\SDL2\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)Library\SDL2_mixer\lib\$(PlatformShortName);$(SolutionDir)Library\SDL2_ttf\lib\$(PlatformShortName);$(SolutionDir)Library\SDL2_image\lib\$(PlatformShortName);$(SolutionDir)Library\SDL2\lib\$(PlatformShortName);$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)Build\bin\$(PlatformShortName)\$(Configuration)\</OutDir>
+    <ExecutablePath>$(SolutionDir);$(ExecutablePath)</ExecutablePath>
+    <IncludePath>$(SolutionDir)Library\SDL2_mixer\include;$(SolutionDir)Library\SDL2_ttf\include;$(SolutionDir)Library\SDL2_image\include;$(SolutionDir)Library\SDL2\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)Library\SDL2_mixer\lib\$(PlatformShortName);$(SolutionDir)Library\SDL2_ttf\lib\$(PlatformShortName);$(SolutionDir)Library\SDL2_image\lib\$(PlatformShortName);$(SolutionDir)Library\SDL2\lib\$(PlatformShortName);$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(SolutionDir)Library\SDL2\lib\$(PlatformShortName)\*.dll" "$(SolutionDir)Build\bin\$(PlatformShortName)\$(Configuration)" /Y /I
+xcopy "$(SolutionDir)Library\SDL2_ttf\lib\$(PlatformShortName)\*.dll" "$(SolutionDir)Build\bin\$(PlatformShortName)\$(Configuration)" /Y /I
+xcopy "$(SolutionDir)Library\SDL2_mixer\lib\$(PlatformShortName)\*.dll" "$(SolutionDir)Build\bin\$(PlatformShortName)\$(Configuration)" /Y /I
+xcopy "$(SolutionDir)Library\SDL2_image\lib\$(PlatformShortName)\*.dll" "$(SolutionDir)Build\bin\$(PlatformShortName)\$(Configuration)" /Y /I</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(SolutionDir)Library\SDL2\lib\$(PlatformShortName)\*.dll" "$(SolutionDir)Build\bin\$(PlatformShortName)\$(Configuration)" /Y /I
+xcopy "$(SolutionDir)Library\SDL2_ttf\lib\$(PlatformShortName)\*.dll" "$(SolutionDir)Build\bin\$(PlatformShortName)\$(Configuration)" /Y /I
+xcopy "$(SolutionDir)Library\SDL2_mixer\lib\$(PlatformShortName)\*.dll" "$(SolutionDir)Build\bin\$(PlatformShortName)\$(Configuration)" /Y /I
+xcopy "$(SolutionDir)Library\SDL2_image\lib\$(PlatformShortName)\*.dll" "$(SolutionDir)Build\bin\$(PlatformShortName)\$(Configuration)" /Y /I</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(SolutionDir)Library\SDL2\lib\$(PlatformShortName)\*.dll" "$(SolutionDir)Build\bin\$(PlatformShortName)\$(Configuration)" /Y /I
+xcopy "$(SolutionDir)Library\SDL2_ttf\lib\$(PlatformShortName)\*.dll" "$(SolutionDir)Build\bin\$(PlatformShortName)\$(Configuration)" /Y /I
+xcopy "$(SolutionDir)Library\SDL2_mixer\lib\$(PlatformShortName)\*.dll" "$(SolutionDir)Build\bin\$(PlatformShortName)\$(Configuration)" /Y /I
+xcopy "$(SolutionDir)Library\SDL2_image\lib\$(PlatformShortName)\*.dll" "$(SolutionDir)Build\bin\$(PlatformShortName)\$(Configuration)" /Y /I</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(SolutionDir)Library\SDL2\lib\$(PlatformShortName)\*.dll" "$(SolutionDir)Build\bin\$(PlatformShortName)\$(Configuration)" /Y /I
+xcopy "$(SolutionDir)Library\SDL2_ttf\lib\$(PlatformShortName)\*.dll" "$(SolutionDir)Build\bin\$(PlatformShortName)\$(Configuration)" /Y /I
+xcopy "$(SolutionDir)Library\SDL2_mixer\lib\$(PlatformShortName)\*.dll" "$(SolutionDir)Build\bin\$(PlatformShortName)\$(Configuration)" /Y /I
+xcopy "$(SolutionDir)Library\SDL2_image\lib\$(PlatformShortName)\*.dll" "$(SolutionDir)Build\bin\$(PlatformShortName)\$(Configuration)" /Y /I</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
